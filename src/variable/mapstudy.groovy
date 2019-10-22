@@ -4,12 +4,12 @@ package variable
  * @author shenhan* @create 2019/10/22 18:41
  * @description
  */
-def colors = [red: "ffff0000", green: "000fff", blue: 1221233]
+//def colors = [red: "ffff0000", green: "000fff", blue: 1221233]
 //println colors["red"].class
 //println colors.red
 
-colors.yellow = 'yellow'
-colors.complex = [a: 1, b: 2]
+//colors.yellow = 'yellow'
+//colors.complex = [a: 1, b: 2]
 //println colors.getClass()
 
 //colors.remove()
@@ -35,11 +35,24 @@ student.each {key,value->
 
 // 查找
 //def entry = student.find {i -> return i.value.score >=60}
-def entry = student.findAll { i -> return i.value.score >= 60 }
+/*def entry = student.findAll { i -> return i.value.score >= 60 }
 println entry
 
 def count = student.count { i -> return i.value.score >= 60 && i.value.sex == 'male'}
 println(count)
 
 def each = student.findAll { i -> return i.value.score >= 60 }.collect {return it.value.name}
-println each
+println each*/
+
+// 分组
+/*def group = student.groupBy {
+    i -> return i.value.score >= 60 ? '及格' : '不及格'
+}
+println(group.toMapString())*/
+
+// 排序
+def sort = student.sort {
+    a,b -> a.value.score == b.value.score ? 0 :
+            a.value.score > b.value.score ?1 : -1
+}
+println sort.toMapString()
