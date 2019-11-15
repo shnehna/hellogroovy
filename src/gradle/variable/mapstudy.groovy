@@ -1,4 +1,4 @@
-package variable
+package gradle.variable
 
 /**
  * @author shenhan* @create 2019/10/22 18:41
@@ -52,7 +52,8 @@ println(group.toMapString())*/
 
 // 排序
 def sort = student.sort {
-    a,b -> a.value.score == b.value.score ? 0 :
-            a.value.score > b.value.score ?1 : -1
+    a, b ->
+        a.value.score == b.value.score ? 0 :
+                a.value.score > b.value.score ? 1 : -1
 }
 println sort.toMapString()

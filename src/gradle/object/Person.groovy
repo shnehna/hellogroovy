@@ -1,4 +1,4 @@
-package object
+package gradle.object
 
 /**
  * @Author shenhan* @Date: 2019/10/22 23:14

@@ -1,8 +1,7 @@
-package object
+package gradle.object
 
 /**
- * @Author shenhan
- * @Date: 2019/10/22 23:25
+ * @Author shenhan* @Date: 2019/10/22 23:25
  * @Description:
  */
 trait DefualtAction {

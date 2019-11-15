@@ -1,4 +1,4 @@
-package variable
+package gradle.variable
 
 /**
  * @author shenhan* @create 2019/10/22 18:10
@@ -18,7 +18,7 @@ strList.sort { it.size() }
 //println strList
 
 //查找
-def findList = [-3, -2, 12, 33,20]
+def findList = [-3, -2, 12, 33, 20]
 //def find = findList.find { return it < -2 }
 
 def findAll = findList.findAll { return it % 2 != 0 }

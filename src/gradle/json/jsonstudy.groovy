@@ -1,4 +1,4 @@
-package json
+package gradle.json
 
 import groovy.json.JsonSlurper
 
@@ -7,11 +7,11 @@ import groovy.json.JsonSlurper
  * @description
  */
 /*def list = [new Person(name: "Jhon", age: 12), new Person(name: "Lucy", age: 10)]
-def json = JsonOutput.toJson(list)
-def print = JsonOutput.prettyPrint(json)
+def gradle.json = JsonOutput.toJson(list)
+def print = JsonOutput.prettyPrint(gradle.json)
 def sulrper = new JsonSlurper()*/
 
-def response = getNetworkData('http://yuexibo.top/yxbApp/home_data.json')
+def response = getNetworkData('http://yuexibo.top/yxbApp/home_data.gradle.json')
 
 println response.data.head.name
 

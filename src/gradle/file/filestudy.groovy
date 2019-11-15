@@ -1,11 +1,11 @@
-package file
+package gradle.file
 
 /**
  * @author shenhan* @create 2019/10/24 10:18
  * @description
  */
 def file = new File('../../hellogroovy.iml')
-/*file.eachLine {
+/*gradle.file.eachLine {
     line -> println line
 }*/
 

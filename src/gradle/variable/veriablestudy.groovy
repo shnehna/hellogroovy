@@ -1,8 +1,7 @@
-package variable
+package gradle.variable
 
 /**
- * @author shenhan
- * @create 2019/10/20 13:24
+ * @author shenhan* @create 2019/10/20 13:24
  * @description
  */
 int x = 120

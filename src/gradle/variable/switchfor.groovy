@@ -1,4 +1,4 @@
-package variable
+package gradle.variable
 
 def x = 12.5
 switch (x) {
@@ -18,7 +18,7 @@ switch (x) {
         result = 'integer'
         break
     case BigDecimal:
-        result  = 'big decimal'
+        result = 'big decimal'
         break
     default:
         result = 'default'

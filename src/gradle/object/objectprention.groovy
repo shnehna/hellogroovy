@@ -1,4 +1,4 @@
-package object
+package gradle.object
 
 /**
  * @Author shenhan* @Date: 2019/10/22 23:17
@@ -22,4 +22,4 @@ Person.metaClass.sexUpperCase = { sex.toUpperCase() }
 
 Person.metaClass.static.createPerson = { name, age -> new Person(name: name, age: age) }
 def personMM = Person.createPerson("liuliu", 20)
-println personMM.name +" and "+ personMM.sex
+println personMM.name + " and " + personMM.sex

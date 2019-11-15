@@ -1,4 +1,4 @@
-package object.expand
+package gradle.object.expand
 
 import object.Person
 

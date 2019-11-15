@@ -1,8 +1,7 @@
-package object.expand
+package gradle.object.expand
 
 /**
- * @author shenhan
- * @create 2019/10/23 10:21
+ * @author shenhan* @create 2019/10/23 10:21
  * @description
  */
 class Entry {
@@ -11,7 +10,7 @@ class Entry {
         // 初始化
         ApplicationManager.init()
         println "初始化完成"
-        def person = PersonManager.createPerson("shen",19)
+        def person = PersonManager.createPerson("shen", 19)
         println "name is ${person.name}, age is ${person.age}"
     }
 }

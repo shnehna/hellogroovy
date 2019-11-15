@@ -1,8 +1,7 @@
-package variable
+package gradle.variable
 
 /**
- * @author shenhan
- * @create 2019/10/20 14:39
+ * @author shenhan* @create 2019/10/20 14:39
  * @description
  */
 
@@ -30,4 +29,4 @@ static String echo(String message) {
 def str = "groov"
 def str2 = "groo"
 //println str.center(8,'a')
-println str>str2
+println str > str2

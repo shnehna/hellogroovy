@@ -1,8 +1,4 @@
-package xml
-
-import groovy.util.slurpersupport.GPathResult
-
-
+package gradle.xml
 /**
  * @author shenhan* @create 2019/10/23 11:03
  * @description

@@ -1,4 +1,4 @@
-package variable
+package gradle.variable
 
 //def closure = {println "Hello groovy ${it}" }
 //closure.call()
@@ -70,7 +70,7 @@ def nextClosure = {
 //委托策略
 class Student {
     String name
-    def pretty = {"my name is ${name}"}
+    def pretty = { "my name is ${name}" }
 
     String toString() {
         pretty.call()
