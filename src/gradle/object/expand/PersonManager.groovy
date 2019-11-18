@@ -1,6 +1,6 @@
 package gradle.object.expand
 
-import object.Person
+import gradle.object.Person
 
 /**
  * @author shenhan* @create 2019/10/23 10:24

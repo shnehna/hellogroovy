@@ -6,4 +6,8 @@ package arl;
  * @description
  */
 public class Action {
+    public static void main(String[] args) {
+        long uglyNum = UglyNumber.findUglyNum(1500);
+        System.out.println(uglyNum);
+    }
 }
